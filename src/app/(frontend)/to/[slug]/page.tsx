@@ -2,9 +2,7 @@ import FlipBook from '@/components/FlipBook'
 import { getPayload } from 'payload'
 import React from 'react'
 import { notFound } from 'next/navigation'
-import { headers as getHeaders } from 'next/headers'
 import configPromise from '@payload-config'
-import { Media } from '@/payload-types'
 
 export default async function Page({
   params: paramsPromise,
